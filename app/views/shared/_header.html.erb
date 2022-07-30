@@ -1,0 +1,7 @@
+<nav>
+  <% if logged_in? %>
+    <%= link_to 'ログアウト', logout_path, method: :delete ,class:"btn btn-primary"  %>
+  <% else %>
+    <%= link_to 'ログイン', login_path ,class:"btn btn-primary"  %>
+ <% end %>
+ </nav>
