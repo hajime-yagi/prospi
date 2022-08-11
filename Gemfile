@@ -46,10 +46,13 @@ gem "bootsnap", require: false
 # gem "sassc-rails"
 gem 'sorcery'
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'byebug'
+
+
 gem 'sass-rails', '>= 3.2'
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 

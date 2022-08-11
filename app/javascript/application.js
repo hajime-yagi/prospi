@@ -5,3 +5,7 @@ import "controllers"
 //= require jquery3
 //= require jquery_ujs
 //= require bootstrap-sprockets
+
+$(function(){
+    setTimeout("$('.flash').fadeOut('slow')", 2000);
+  });

@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   delete 'logout', to: 'user_sessions#destroy'  # 追記
   get 'signup', to: 'users#new'
 
-  resources :users, only: %i(create)
+  resources :users, only: %i(create index edit )
 end
   
